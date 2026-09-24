@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256" width="512" height="256">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A1A8C"/>
+      <stop offset="100%" style="stop-color:#7B2FBE"/>
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C084FC"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="256" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Star shape -->
+  <polygon points="80,88 88,112 112,112 92,128 100,152 80,136 60,152 68,128 48,112 72,112" 
+           fill="url(#starGrad)" filter="url(#glow)" opacity="0.9"/>
+  
+  <!-- Inner star glow -->
+  <polygon points="80,98 85,110 98,110 87,119 92,132 80,124 68,132 73,119 62,110 75,110" 
+           fill="white" opacity="0.3"/>
+  
+  <!-- Sparkles -->
+  <circle cx="140" cy="70" r="2" fill="#C084FC" opacity="0.6"/>
+  <circle cx="160" cy="55" r="1.5" fill="#C084FC" opacity="0.5"/>
+  <circle cx="20" cy="90" r="2" fill="#C084FC" opacity="0.6"/>
+  <circle cx="10" cy="110" r="1.5" fill="#C084FC" opacity="0.5"/>
+  <circle cx="150" cy="150" r="2" fill="#EC4899" opacity="0.6"/>
+  <circle cx="170" cy="165" r="1.5" fill="#EC4899" opacity="0.5"/>
+  
+  <!-- STELLA text -->
+  <text x="220" y="110" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" 
+        fill="white" text-anchor="middle" letter-spacing="4">STELLA</text>
+  
+  <!-- UPSCALING text -->
+  <text x="220" y="170" font-family="Arial, Helvetica, sans-serif" font-size="34" 
+        fill="#C084FC" text-anchor="middle" letter-spacing="2">UPSCALING</text>
+  
+  <!-- Accent line -->
+  <line x1="220" y1="180" x2="380" y2="180" stroke="#EC4899" stroke-width="2.5"/>
+  
+  <!-- Tagline -->
+  <text x="300" y="215" font-family="Arial, Helvetica, sans-serif" font-size="13" 
+        fill="white" text-anchor="middle" opacity="0.8">AI Image Enhancement</text>
+</svg>

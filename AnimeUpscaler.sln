@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A092425-4080-4183-AF95-B9BFCB46DF7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeUpscaler.Core", "src\AnimeUpscaler.Core\AnimeUpscaler.Core.csproj", "{C715AFAB-0485-43E4-BFC6-40180A1A24FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeUpscaler", "src\AnimeUpscaler\AnimeUpscaler.csproj", "{BF877CCB-1C7B-4BEF-BDB8-7522C249F34A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BE758698-B2D5-4AF7-B4AC-83AE0E430C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeUpscaler.Core.Tests", "tests\AnimeUpscaler.Core.Tests\AnimeUpscaler.Core.Tests.csproj", "{F2D310D1-251B-400F-8407-3E3C916A55D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C715AFAB-0485-43E4-BFC6-40180A1A24FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C715AFAB-0485-43E4-BFC6-40180A1A24FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C715AFAB-0485-43E4-BFC6-40180A1A24FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C715AFAB-0485-43E4-BFC6-40180A1A24FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF877CCB-1C7B-4BEF-BDB8-7522C249F34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF877CCB-1C7B-4BEF-BDB8-7522C249F34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF877CCB-1C7B-4BEF-BDB8-7522C249F34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF877CCB-1C7B-4BEF-BDB8-7522C249F34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D310D1-251B-400F-8407-3E3C916A55D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D310D1-251B-400F-8407-3E3C916A55D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D310D1-251B-400F-8407-3E3C916A55D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D310D1-251B-400F-8407-3E3C916A55D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C715AFAB-0485-43E4-BFC6-40180A1A24FA} = {2A092425-4080-4183-AF95-B9BFCB46DF7B}
+		{BF877CCB-1C7B-4BEF-BDB8-7522C249F34A} = {2A092425-4080-4183-AF95-B9BFCB46DF7B}
+		{F2D310D1-251B-400F-8407-3E3C916A55D0} = {BE758698-B2D5-4AF7-B4AC-83AE0E430C33}
+	EndGlobalSection
+EndGlobal
