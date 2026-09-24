@@ -2,6 +2,5 @@ bin/
 obj/
 .vs/
 .superpowers/
-artifacts/
 *.user
 
